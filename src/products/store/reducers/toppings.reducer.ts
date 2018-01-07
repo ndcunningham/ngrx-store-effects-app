@@ -43,7 +43,8 @@ export function reducer(
       return {
         ...state,
         loaded: true,
-        loading: false
+        loading: false,
+        entities
       };
     }
 
